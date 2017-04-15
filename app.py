@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import os
-from bottle import route, run, template
+from bottle import route, run, template, error
 
 @route("/")
 def index():
