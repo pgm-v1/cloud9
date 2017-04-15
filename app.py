@@ -13,6 +13,6 @@ def index():
 
 @error(404)
 def error404(error):
-    return "Not Found!"
+    return template('404')
 
 run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
